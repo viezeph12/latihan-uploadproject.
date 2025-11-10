@@ -1,0 +1,76 @@
+/* ====== BASE ====== */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: #3c3c3c;
+}
+
+body {
+    background: linear-gradient( #e0f7fa, #e1bee7);
+    display: flex; /*flex coloumn*/
+    justify-content: center; /* scr hori*/
+    align-items: center; /* scr verti*/
+    height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* ====== TITLE ====== */
+h2 {
+    color: #3c3c3c;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: #5e35b1;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* ====== BUTTON & LINK ====== */
+a, button {
+    background-color: #7e57c2;
+    color: white; /*font*/
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+
+/* ====== FORM CONTAINER ====== */
+form {
+    background-color: #ffffff;
+    padding: 25px 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 400px;
+    margin-top: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    color: #5e35b1;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* ====== TABLE LAYOUT ====== */
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px ;
+    color: #333;
+    text-align: center;
+}
+
+
+
